@@ -142,3 +142,10 @@ When changing the model you need to add migration, but for the current limitatio
     dotnet ef database drop
     dotnet ef migrations add InitialCreate
     dotnet ef database update
+
+Create a solution in the father folder `razor-movie-sample` and add the existing project into that sln
+
+    dotnet new sln
+    dotnet sln razor-movie-sample.sln add ./RazorMovies/RazorMovies.csproj
+
+ 
